@@ -1,6 +1,6 @@
 #!/usr/bin/bash 
 
-sed -i 's/\[]/\["34.247.73.152"]/' /home/ubuntu/librarymanagement/librarymanagement/settings.py
+sed -i 's/\[]/\["3.249.178.139"]/' /home/ubuntu/librarymanagement/librarymanagement/settings.py
 
 python manage.py migrate 
 python manage.py makemigrations     
